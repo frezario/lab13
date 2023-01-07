@@ -1,0 +1,30 @@
+POST http://localhost:5004/tasks
+Content-Type: application/json
+
+{"type": 10}
+
+<> 2023-01-06T234643.202.json
+
+###
+
+GET http://localhost:5004/tasks/de279b74-2da5-48f2-bfcc-6e23c4bb442c
+
+<> 2023-01-06T234239.200.json
+
+###
+
+GET http://localhost:5004/tasks/de279b74-2da5-48f2-bfcc-6e23c4bb442c
+
+<> 2023-01-06T234214.200.json
+
+###
+
+POST http://localhost:5004/tasks
+Content-Type: application/json
+
+{"type": 0}
+
+<> 2023-01-06T234118.202.json
+
+###
+
